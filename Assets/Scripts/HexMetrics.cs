@@ -2,17 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HexMetrics : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public static class HexMetrics {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public const float outerRadius = 10f;
+
+	public const float innerRadius = outerRadius * 0.866025404f;
 }
